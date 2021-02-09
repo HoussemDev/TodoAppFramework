@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="QA Cart ToDo APP">
+    <test name="Android">
+        <parameter name="deviceName" value="emulator-5554"></parameter>
+        <parameter name="platformName" value="Android"></parameter>
+        <parameter name="platformVersion" value="11"></parameter>
+        
+        <classes>
+            <class name="com.qacart.testcases.LoginScreenTest"></class>
+        </classes>
+    </test>
+</suite>
